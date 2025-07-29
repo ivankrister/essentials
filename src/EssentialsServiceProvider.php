@@ -43,6 +43,15 @@ final class EssentialsServiceProvider extends BaseServiceProvider
     ];
 
     /**
+     * Register the application services.
+     */
+    public function register(): void
+    {
+        // Register any application services here if needed
+        // This method is called before boot() and is used for binding services into the container
+    }
+
+    /**
      * Bootstrap the application services.
      */
     public function boot(): void

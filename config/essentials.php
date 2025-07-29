@@ -149,10 +149,10 @@ return [
     | models. When enabled, the framework will unguard
     | all models, allowing you to mass assign any attributes.
     |
-    | Disabled by default.
+    | Enabled by default.
     |
     */
 
-    NunoMaduro\Essentials\Configurables\Unguard::class => false,
+    NunoMaduro\Essentials\Configurables\Unguard::class => true,
 
 ];
